@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Redis" Version="5.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CareerCase.Domain\CareerCase.Domain.csproj" />
+    <ProjectReference Include="..\CareerCase.Infrastructure\CareerCase.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
